@@ -6,8 +6,10 @@
         pkgs.git
         pkgs.busybox
         pkgs.flutter
+        pkgs.zulu17
+        pkgs.gradle
     ];
     bootstrap = ''
-        flutter create "$out"
+        flutter create "$out" --platforms=android
     '';
 }
