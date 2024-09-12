@@ -2,5 +2,8 @@
   "name": "Hello world",
   "description": "A template for a CLI program that prints 'hello world'",
   "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
-  "params": []
+  "params": [],
+  "host": {
+    "virtualization": true
+  }
 }
