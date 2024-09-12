@@ -11,6 +11,6 @@
         pkgs.starship
     ];
     bootstrap = ''
-        flutter create "$out" --platforms=android
+        flutter create "$out" --platforms="android"
     '';
 }
