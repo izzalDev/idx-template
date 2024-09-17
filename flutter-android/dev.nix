@@ -26,13 +26,13 @@
       onCreate = {
         installDependencies = "flutter pub get";
         build-flutter = ''
-          cd /home/user/myapp/android
+          cd $out
 
           ./gradlew \
             --parallel \
             -Pverbose=true \
             -Ptarget-platform=android-x86 \
-            -Ptarget=/home/user/myapp/lib/main.dart \
+            -Ptarget=$out/lib/main.dart \
             -Pbase-application-name=android.app.Application \
             -Pdart-defines=RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC85NzU1MDkwN2I3MGY0ZjNiMzI4YjZjMTYwMGRmMjFmYWMxYTE4ODlhLw== \
             -Pdart-obfuscation=false \
