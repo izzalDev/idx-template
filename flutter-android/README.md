@@ -1,0 +1,1 @@
+https://idx.google.com/new?template=https://github.com/izzaldev/idx-template/tree/main/flutter-android

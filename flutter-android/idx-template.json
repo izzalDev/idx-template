@@ -1,9 +1,15 @@
 {
-  "name": "Hello world",
-  "description": "A template for a CLI program that prints 'hello world'",
+  "name": "Pre-Commit Flutter Android",
+  "description": "A Flutter Android template with pre-installed pre-commit hooks and GitHub automation",
   "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
-  "params": [],
+  "params": [
+    {
+      "id": "projectName",
+      "name": "Project Name",
+      "type": "text"
+    }
+  ],
   "host": {
-    "virtualization": true
+    "supportsVirtualization": true
   }
 }
